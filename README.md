@@ -50,6 +50,8 @@ SELECT COUNT(Loyalty_ID) FROM Loyalty_Program;
 ```sql
 SELECT Genre, COUNT(*) AS movie_count FROM Movies GROUP BY Genre ORDER BY movie_count DESC;
 ```
+![image](https://github.com/user-attachments/assets/f763e95f-af7a-40c7-94bb-8342f2fc140c)
+
 
 **Justification:**
 

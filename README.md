@@ -1,5 +1,7 @@
 # **Database README: al_Group_47114_G8**
 
+# *Group 8 Members: Arnav Gupta, Ainsley Myers, Caroline Pitfield, Melanie Canchola*
+
 ## **Overview**
 
 The `al_Group_47114_G8` database is designed for managing a movie theater's operations, 

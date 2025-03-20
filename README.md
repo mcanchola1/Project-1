@@ -1,9 +1,16 @@
-# **Database README: al_Group_47114_G8**
+# Team 8 Mist 4610 Group Project 1
 
-# *Group 8 Members: Arnav Gupta, Ainsley Myers, Caroline Pitfield, Melanie Canchola*
+## Team Name: 
+47114 Group 8 
 
-## **Overview**
+## Team Members:
 
+1. Arnav Gupta [@ArnavGupta](https://www.github.com/akg93611)
+2. Ainsley Myers [@AinsleyMyers](https://www.github.com/anm00752)
+3. Caroline Pitfield [@rileydoggett](https://www.github.com/cgpitfield)
+4. Melanie Canchola [@ripleykurtz](https://www.github.com/mcanchola1)
+
+## Problem Description:
 The `al_Group_47114_G8` database is designed for managing a movie theater's operations, 
 including movie showings, customer transactions, concessions, employee shifts, and loyalty programs. 
 This database allows managers to gain insights into sales, customer behavior, and employee performance.

@@ -31,22 +31,6 @@ Transactions are processed by an employee, connecting in a one to many relations
 ![image](https://github.com/user-attachments/assets/39ac3850-0284-4fe2-a28d-6127e867860d)
 
 
-## **Database Structure**
-
-### **Main Tables:**
-
-- **Movies**: Stores movie details (Title, Genre, Duration, Rating, Release Date, Distributor).
-- **Showtimes**: Lists showtime details and links to movies and auditoriums.
-- **Auditoriums**: Stores information about auditorium seat capacities and sound systems.
-- **Customers**: Contains customer details, including loyalty program participation.
-- **Loyalty\_Program**: Tracks customer loyalty points and rewards claimed.
-- **Tickets**: Manages ticket sales and links transactions to showtimes.
-- **Concessions**: Stores concession items and their sales transactions.
-- **Transactions**: Records purchases of tickets and concessions.
-- **Employees**: Stores employee details and links them to shifts and transactions.
-- **Shifts**: Manages employee work schedules.
-- **Reviews**: Stores customer ratings and reviews for movies.
-
 ## Data Dictionary
 <img width="634" alt="Movies" src="https://github.com/user-attachments/assets/91c5752a-91d4-4085-90de-8476b8202a6e" />
 <img width="637" alt="showtimes" src="https://github.com/user-attachments/assets/75ecc185-6ad5-4194-a7f0-6cb397d847d7" />
@@ -213,6 +197,7 @@ ORDER BY Tickets_Sold DESC;
 ---
 
 ## **Conclusion**
+Name of the database: al_Group_47114_G8
 
 This database provides an efficient way to manage theater operations, track employee performance, optimize scheduling, and enhance customer engagement. 
 These queries serve as valuable tools for managerial decision-making and business strategy planning.

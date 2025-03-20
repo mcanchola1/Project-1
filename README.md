@@ -54,6 +54,7 @@ Transactions are processed by an employee, connecting in a one to many relations
 ```sql
 SELECT COUNT(Loyalty_ID) FROM Loyalty_Program;
 ```
+![Screenshot 2025-03-20 115103](https://github.com/user-attachments/assets/225e6493-cd7c-425a-a7ba-8fc365e10733)
 
 **Justification:**
 
@@ -66,7 +67,6 @@ SELECT Genre, COUNT(*) AS movie_count FROM Movies GROUP BY Genre ORDER BY movie_
 ```
 ![image](https://github.com/user-attachments/assets/f763e95f-af7a-40c7-94bb-8342f2fc140c)
 
-
 **Justification:**
 
 - Assists in ensuring a diverse selection of movies across different genres.
@@ -78,6 +78,7 @@ SELECT M.Title, COUNT(R.Review_ID) AS Review_Count FROM Movies M
 JOIN Reviews R ON M.Movie_ID = R.Movies_Movie_ID
 GROUP BY M.Title ORDER BY Review_Count DESC;
 ```
+![Screenshot 2025-03-20 115202](https://github.com/user-attachments/assets/6f63d6ca-0a8e-44c8-a598-bf8bebb0f4e3)
 
 **Justification:**
 
@@ -90,6 +91,7 @@ SELECT S.Showtime_ID, COUNT(T.Ticket_ID) AS Tickets_Sold FROM Showtimes S
 JOIN Tickets T ON S.Showtime_ID = T.Showtimes_Showtime_ID
 GROUP BY S.Showtime_ID ORDER BY Tickets_Sold DESC;
 ```
+![Screenshot 2025-03-20 115302](https://github.com/user-attachments/assets/35f957ec-6c41-4aae-83f5-eb7982b2a5ff)
 
 **Justification:**
 
@@ -106,6 +108,7 @@ SELECT E.First_Name, E.Last_Name FROM Employees E
 JOIN Shifts S ON E.Employee_ID = S.Employees_Employee_ID
 WHERE S.Date = '2024-10-08';
 ```
+![Screenshot 2025-03-20 115347](https://github.com/user-attachments/assets/9eda6d50-9959-4162-838a-a937fabbeeaa)
 
 **Justification:**
 
@@ -118,6 +121,8 @@ SELECT M.Title, AVG(R.Rating) AS 'Avg Rating' FROM Movies M
 JOIN Reviews R ON M.Movie_ID = R.Movies_Movie_ID
 GROUP BY M.Title ORDER BY AVG(R.Rating) DESC;
 ```
+
+
 
 **Justification:**
 

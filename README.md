@@ -136,6 +136,7 @@ FROM Concessions C
 JOIN Transactions T ON C.Transactions_Transaction_ID = T.Transaction_ID
 GROUP BY C.Item_Name ORDER BY COUNT(T.Transaction_ID) DESC;
 ```
+![Uploading Screenshot 2025-03-20 115739.png…]()
 
 **Justification:**
 

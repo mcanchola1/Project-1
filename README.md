@@ -23,7 +23,7 @@ Our model is based on the structure of a movie theater. The entity movies holds 
 
 Since each customer can make many reviews, there is another one to many relationship from customers to reviews. The customers entity holds each customer’s name, contact information, and birth date. The customers can also choose to opt in for a loyalty program, connected by a one to many relationship since each loyalty program belongs to one customer. This holds their points balance and tier for different rewards at our theater.
 
-The movies entity is also connected to auditoriums through a many to many relationship with showtimes in between. Showtimes identifies the start and end time, along with which movie is in which auditorium. The auditoriums entity holds its ID along with the capacity and sound system. Each movie can have many showtimes, along with each auditorium having many showtimes.
+The movies entity is also connected to showtimes, since each movie can be played at a different showtime. The showtimes entity connects to auditoriums in a many to many relationship since each auditorium can have many showtimes and each showtime can have a different auditorium. The middle entity is auditorium time, which identifies the specific auditorium for each specific showtime.
 
 The tickets entity holds the seat number, price, purchase date, and multiple foreign keys. The entity is connected to showtimes to assign each showtime to a specific ticket. Tickets also connects to transactions in a one to many relationship since many tickets can be purchased in each transaction. Many concessions can also be in each transaction, connecting concessions in a one to many relationship. Concessions holds the item, price, and stock of each food item. 
 

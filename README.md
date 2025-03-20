@@ -129,6 +129,7 @@ SELECT First_Name, Last_Name, SUM(Total_Amount) AS Total_Spent, MAX(Date) AS Las
 FROM Customers JOIN Transactions t ON Customer_ID = Customers_Customer_ID
 GROUP BY Customer_ID ORDER BY Total_Spent DESC LIMIT 5;
 ```
+![image](https://github.com/user-attachments/assets/1be006df-3f95-424a-b1b3-8f47149b8682)
 
 **Justification:**
 
@@ -141,6 +142,7 @@ SELECT First_Name, Last_Name, COUNT(Transaction_ID) AS Total_Transactions
 FROM Employees JOIN Transactions ON Employees.Employee_ID = Transactions.Employees_Employee_ID
 GROUP BY Employee_ID ORDER BY Total_Transactions DESC LIMIT 3;
 ```
+![image](https://github.com/user-attachments/assets/5a450f99-5746-4e66-95e3-8a1ad3698052)
 
 **Justification:**
 

@@ -7,8 +7,8 @@
 
 1. Arnav Gupta [@ArnavGupta](https://www.github.com/akg93611)
 2. Ainsley Myers [@AinsleyMyers](https://www.github.com/anm00752)
-3. Caroline Pitfield [@rileydoggett](https://www.github.com/cgpitfield)
-4. Melanie Canchola [@ripleykurtz](https://www.github.com/mcanchola1)
+3. Caroline Pitfield [@CarolinePitfield](https://www.github.com/cgpitfield)
+4. Melanie Canchola [@MelanieCanchola](https://www.github.com/mcanchola1)
 
 ## Problem Description:
 The `al_Group_47114_G8` database is designed for managing a movie theater's operations, 

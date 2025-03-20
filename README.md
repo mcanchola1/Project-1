@@ -28,6 +28,8 @@ The movies entity is also connected to showtimes, since each movie can be played
 The tickets entity holds the seat number, price, purchase date, and multiple foreign keys. The entity is connected to showtimes to assign each showtime to a specific ticket. Tickets also connects to transactions in a one to many relationship since many tickets can be purchased in each transaction. Many concessions can also be in each transaction, connecting concessions in a one to many relationship. Concessions holds the item, price, and stock of each food item. 
 
 Transactions are processed by an employee, connecting in a one to many relationship. The entity employees holds their name, role, and salary. Each employee can work different shifts, shown in a one to many relationship. Shifts holds the start and end time, date, and which employee works it.
+![image](https://github.com/user-attachments/assets/39ac3850-0284-4fe2-a28d-6127e867860d)
+
 
 ## **Database Structure**
 
@@ -61,6 +63,8 @@ Transactions are processed by an employee, connecting in a one to many relations
 
 ## **SQL Queries for Managerial Insights**
 
+![image](https://github.com/user-attachments/assets/5e1aef0c-6ad1-4f21-80fb-a13de6630227)
+
 ### **Simple Queries:**
 
 ### 1. **Find the total number of customers in the loyalty program**
@@ -79,7 +83,7 @@ SELECT COUNT(Loyalty_ID) FROM Loyalty_Program;
 ```sql
 SELECT Genre, COUNT(*) AS movie_count FROM Movies GROUP BY Genre ORDER BY movie_count DESC;
 ```
-![image](https://github.com/user-attachments/assets/f763e95f-af7a-40c7-94bb-8342f2fc140c)
+![Screenshot 2025-03-20 114652](https://github.com/user-attachments/assets/a3a41b04-0ea0-4ce5-93bd-05fcab093bf9)
 
 **Justification:**
 
@@ -135,8 +139,7 @@ SELECT M.Title, AVG(R.Rating) AS 'Avg Rating' FROM Movies M
 JOIN Reviews R ON M.Movie_ID = R.Movies_Movie_ID
 GROUP BY M.Title ORDER BY AVG(R.Rating) DESC;
 ```
-
-
+![image](https://github.com/user-attachments/assets/3aa3de3c-12bc-4444-9aee-c38679f4ff9d)
 
 **Justification:**
 
@@ -199,6 +202,9 @@ GROUP BY S.Showtime_ID
 HAVING Tickets_Sold >= (A.Seat_Capacity / 2)
 ORDER BY Tickets_Sold DESC;
 ```
+
+![image](https://github.com/user-attachments/assets/a89feb29-6da4-48e9-826e-8216988b6a15)
+
 
 **Justification:**
 

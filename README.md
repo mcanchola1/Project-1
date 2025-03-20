@@ -150,11 +150,11 @@ FROM Concessions C
 JOIN Transactions T ON C.Transactions_Transaction_ID = T.Transaction_ID
 GROUP BY C.Item_Name ORDER BY COUNT(T.Transaction_ID) DESC;
 ```
-![Uploading Screenshot 2025-03-20 115739.png…]()
+![Screenshot 2025-03-20 115739](https://github.com/user-attachments/assets/54965805-6ead-4c9e-8f56-22b7eeda47ef)
 
 **Justification:**
 
-- Helps in managing concession inventory and identifying popular items.
+- Helps manage concession inventory and identify popular items.
 
 ### 8. **Top 5 highest-paying customers and their last purchase date**
 

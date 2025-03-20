@@ -45,6 +45,20 @@ Transactions are processed by an employee, connecting in a one to many relations
 - **Shifts**: Manages employee work schedules.
 - **Reviews**: Stores customer ratings and reviews for movies.
 
+## Data Dictionary
+<img width="634" alt="Movies" src="https://github.com/user-attachments/assets/91c5752a-91d4-4085-90de-8476b8202a6e" />
+<img width="637" alt="showtimes" src="https://github.com/user-attachments/assets/75ecc185-6ad5-4194-a7f0-6cb397d847d7" />
+<img width="635" alt="auditoriums" src="https://github.com/user-attachments/assets/e629a979-641f-4651-ba48-a208018358a3" />
+<img width="636" alt="customers" src="https://github.com/user-attachments/assets/0141b281-5acd-41ee-906e-bc8467a7321c" />
+<img width="637" alt="LP" src="https://github.com/user-attachments/assets/2bed1298-540a-4e29-a4e5-7f680c921f7a" />
+<img width="636" alt="ticks" src="https://github.com/user-attachments/assets/06d0c931-bee6-4a39-a831-7b4d2be67d60" />
+<img width="637" alt="concession" src="https://github.com/user-attachments/assets/155ca329-63ef-4a5c-81ac-c5c055b13f07" />
+<img width="638" alt="transactions" src="https://github.com/user-attachments/assets/d9dd1427-c1db-4115-9496-a29f76caa1e8" />
+<img width="634" alt="employees" src="https://github.com/user-attachments/assets/d1c7604c-4054-4775-92ac-987a1563897f" />
+<img width="636" alt="Shfits" src="https://github.com/user-attachments/assets/ce278efa-c332-4685-9937-b73a97a6c0c3" />
+<img width="637" alt="Reviews" src="https://github.com/user-attachments/assets/237e929b-0b34-4a18-ae2a-70bc769cc123" />
+<img width="650" alt="AT" src="https://github.com/user-attachments/assets/b0517a70-3bba-43e9-940f-4e9ed0aa2673" />
+
 ## **SQL Queries for Managerial Insights**
 
 ### **Simple Queries:**

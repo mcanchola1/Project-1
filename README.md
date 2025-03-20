@@ -63,7 +63,7 @@ Transactions are processed by an employee, connecting in a one to many relations
 
 ## **SQL Queries for Managerial Insights**
 
-![image](https://github.com/user-attachments/assets/5e1aef0c-6ad1-4f21-80fb-a13de6630227)
+![image](https://github.com/user-attachments/assets/4ed8af12-89c3-4bb4-b0b3-b74224524131)
 
 ### **Simple Queries:**
 
